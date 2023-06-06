@@ -1,0 +1,5 @@
+<div *ngIf="entry" style="display: flex; justify-content: space-between;">
+    <p mat-card-title class="shower-name">+ {{ entry.shower }}</p>
+    <button mat-button style="margin: auto 0 auto 0" (click)="removeEntry()">Remove</button>
+    <p mat-card-subtitle class="shower-count" style="margin: auto 0 auto 0">{{ entry.time }}</p>
+</div>

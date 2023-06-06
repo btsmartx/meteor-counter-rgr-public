@@ -1,0 +1,23 @@
+name: build angular
+on:
+  push
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js 20.2.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.2.0
+
+      - name: Install dependecies
+        run: |
+          npm install
+
+      - name: Build
+        run: |
+          npm run build-gh

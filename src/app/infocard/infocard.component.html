@@ -1,0 +1,11 @@
+<mat-card class="info-card">
+    <mat-card-subtitle style="color: #121212;">bt meteor counter v0.1
+      <button mat-icon-button color="accent" id="edit-state-button" (click)="openInfoCardPopup()">
+        <mat-icon>edit</mat-icon>
+      </button>
+    </mat-card-subtitle>
+    <mat-card-content>Time: {{ time_string }} </mat-card-content>
+    <mat-card-content>FOV: Ra: {{ fov_ra }} Dec: {{ fov_dec }} </mat-card-content>
+    <mat-card-content>Field of obstruction: {{ field_obs }}</mat-card-content>
+    <mat-card-content>Lim magnitude: {{ Lm }}</mat-card-content>
+  </mat-card>

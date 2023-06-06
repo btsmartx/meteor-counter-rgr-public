@@ -1,0 +1,22 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile colspan="2" rowspan="2">
+      <button mat-stroked-button id="grid-button-1" class="grid-button-main" (click)="onbtn1click()">
+        <p class="count-text-main">{{ btncount1 }} </p>
+        <p>{{ shower1 }}</p>
+      </button>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <button mat-stroked-button id="grid-button-2" class="grid-button-secondary" (click)="onbtn2click()">
+        <p class="count-text-secondary">{{ btncount2 }}</p>
+        <p>{{ shower2 }}</p>
+      </button>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <button mat-stroked-button id="grid-button-3" class="grid-button-secondary"
+      (click)="onbtn3click()">
+        <p class="count-text-secondary">{{ btncount3 }}</p>
+        <p>{{ shower3 }}</p>
+      </button>
+    </mat-grid-tile>
+  </mat-grid-list>
+  

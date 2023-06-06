@@ -1,0 +1,21 @@
+@use '~@angular/material' as mat;
+
+.info-card {
+    width: calc(95% - 7px);
+    margin: auto;
+    margin-top: 5px;
+    color: #fff;
+    background-color: #101010;
+}
+
+mat-card-subtitle{
+    display: inline-block;
+    height: 10px;
+} 
+
+
+#edit-state-button {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;   
+}

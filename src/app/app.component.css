@@ -1,0 +1,12 @@
+#app-background {
+    height: 100%;
+    max-width: 500px;
+    background-color: #121212;
+    overflow: scroll;
+    margin: auto;
+}
+
+#app-header {
+    height: 55px;
+    width: 100%;
+}
